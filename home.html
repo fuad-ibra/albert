@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220530110458">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<h1 class="header__title">
+				<a href="#">albert</a>
+			</h1>
+			<nav class="header__menu menu">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a class="menu__link" href="#" data-popup="#popup-about">
+							about
+						</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#" data-popup="#popup-contact">
+							contact
+						</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#" data-popup="#popup-diary">
+							diary
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main class="page">
+
+			<div class="slider" data-scroll-container>
+				<section class="slider__content" data-scroll-section>
+					<div class="page__image page__image-1" data-scroll data-scroll-speed="-1.5">
+						<picture><source srcset="img/1m.webp" type="image/webp"><img src="img/1m.jpeg" alt=""></picture>
+					</div>
+					<div class="page__image page__image-2" data-scroll data-scroll-speed="30">
+						<picture><source srcset="img/2m.webp" type="image/webp"><img src="img/2m.jpeg" alt=""></picture>
+					</div>
+					<div class="page__image page__image-3" data-scroll data-scroll-speed="10">
+						<picture><source srcset="img/3m.webp" type="image/webp"><img src="img/3m.jpeg" alt=""></picture>
+					</div>
+					<div class="page__image page__image-4" data-scroll data-scroll-speed="16">
+						<picture><source srcset="img/4m.webp" type="image/webp"><img src="img/4m.jpeg" alt=""></picture>
+					</div>
+					<div class="page__image page__image-5" data-scroll data-scroll-speed="24">
+						<picture><source srcset="img/5m.webp" type="image/webp"><img src="img/5m.jpeg" alt=""></picture>
+					</div>
+					<div class="page__image page__image-6" data-scroll data-scroll-speed="5">
+						<picture><source srcset="img/6m.webp" type="image/webp"><img src="img/6m.jpeg" alt=""></picture>
+					</div>
+					<div class="page__image page__image-7" data-scroll data-scroll-speed="2">
+						<picture><source srcset="img/7m.webp" type="image/webp"><img src="img/7m.jpeg" alt=""></picture>
+					</div>
+					<div class="page__image page__image-8" data-scroll data-scroll-speed="2">
+						<picture><source srcset="img/8m.webp" type="image/webp"><img src="img/8m.jpeg" alt=""></picture>
+					</div>
+					<div class="page__image page__image-9" data-scroll data-scroll-speed="7">
+						<picture><source srcset="img/9m.webp" type="image/webp"><img src="img/9m.jpeg" alt=""></picture>
+					</div>
+					<div class="page__image page__image-10" data-scroll data-scroll-speed="20">
+						<picture><source srcset="img/10m.webp" type="image/webp"><img src="img/10m.jpeg" alt=""></picture>
+					</div>
+					<div class="page__image page__image-11" data-scroll data-scroll-speed="1">
+						<picture><source srcset="img/11m.webp" type="image/webp"><img src="img/11m.jpeg" alt=""></picture>
+					</div>
+				</section>
+
+				<section class="footer" data-scroll-section>
+					<div class="footer__container">
+						<span class="footer__text">
+							&copy;albert
+						</span>
+					</div>
+					<div class="scrollup showBtn">
+						<svg width="20" height="20" viewBox="0 0 240.835 240.835">
+							<path d="M129.007,57.819c-4.68-4.68-12.499-4.68-17.191,0L3.555,165.803c-4.74,4.74-4.74,12.427,0,17.155 c4.74,4.74,12.439,4.74,17.179,0l99.683-99.406l99.671,99.418c4.752,4.74,12.439,4.74,17.191,0c4.74-4.74,4.74-12.427,0-17.155 L129.007,57.819z" fill="" data-original="#000000"></path>
+						</svg>
+					</div>
+				</section>
+
+			</div>
+
+		</main>
+		<!-- <!-- <footer class="footer" data-scroll data-scroll-section>
+	<div class="footer__container">
+		<span class="footer__text">
+			&copy;albert
+		</span>
+	</div>
+</footer> --> -->
+	</div>
+	<div id="popup-about" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__text">
+					ABOUT: Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque blanditiis adipisci laboriosam voluptatum maxime iure consectetur excepturi sit soluta maiores.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-contact" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__text">
+					CONTACT: Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quibusdam illum aut neque pariatur! Ut.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-diary" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">X</button>
+				<div class="popup__text">
+					DIARY: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, officiis!
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/app.min.js?_v=20220530110458"></script>
+</body>
+
+</html>
